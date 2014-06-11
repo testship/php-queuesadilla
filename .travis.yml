@@ -2,10 +2,10 @@ language: php
 
 services:
    #- memcached
-   - mongodb
+   #- mongodb
   #  - mysql
   # - rabbitmq
-   - redis-server
+  - redis-server
 
 php:
   #- 5.3
