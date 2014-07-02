@@ -40,7 +40,7 @@ script:
 #after_success:
  # - "composer require --dev satooshi/php-coveralls:dev-master && php vendor/bin/coveralls -v"
 before_archive:
-  - echo "$name"
+  - echo "$branch"
 
   
 after_archive:
