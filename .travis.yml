@@ -13,7 +13,7 @@ php:
 #  - 5.5
   
   
-reset_minion: true 
+#reset_minion: true 
 
 before_script:
   # beanstalkd
